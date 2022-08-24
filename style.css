@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+}
+.top-aria{
+    min-height: 80vh;
+    min-width: 80%;
+    background-image: url(images/donation11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 40px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    background-color:black;
+    border-radius: 10px;
+}
+.donate{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
+.donate h1{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.donate p{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+}
+.donate-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
